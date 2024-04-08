@@ -19,7 +19,7 @@ public class Taco {
     private Long id;
 
     @NotNull
-    @Size(min=5, message = "Name must be at least 5 characters long")
+    @Size(min=5, message = "Name must be at least 5 characters long haha ")
     private String name;
 
     @NotNull
