@@ -72,6 +72,7 @@
     </div>
   </div>
 
+
   <div>
 
 
@@ -87,6 +88,9 @@
     <button>Submit Your Taco</button>
   </div>
   <!-- tag::closeFormTag[] -->
+</form>
+<form method="POST" th:action="@{/logout}">
+  <input type="submit" value="Logout"/>
 </form>
 <!-- end::closeFormTag[] -->
 </body>
